@@ -154,9 +154,33 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: #DBEEFB;
+}
+p, a, address {
+    color: #212255;
+}
+a {
+    text-decoration: underline;
+}
+.logo-section {
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+    max-width: 600px;
+    margin: 0 auto;
 
-
-
+}
+img.logo {
+    width: 100%;
+}
+section {
+    text-align: center;
+    margin-top: 40px;
+}
+.email {
+    padding-top: 10px;
+}
 
 
 
@@ -239,7 +263,7 @@ nav a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 100%;
     }
 
     .main aside {
